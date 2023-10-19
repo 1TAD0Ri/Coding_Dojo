@@ -1,0 +1,105 @@
+T diagram 1
+-------------
+hello
+dojo      -
+      -
+      -
+      -
+      -
+      -
+T diagram 2
+-------------
+hello
+result is 15     -
+      -
+      -
+      -
+      -
+      -
+T diagram 3
+-------------
+num is 3
+result is 18    -
+      -
+      -
+      -
+      -
+      -
+T diagram 4
+-------------
+15
+10
+10
+15  -
+      -
+      -
+      -
+      -
+      -
+
+T diagram 5
+-------------
+15
+10
+20
+15
+      -
+      -
+      -
+      -
+T diagram 6
+-------------
+num is 3
+num is 5
+result is 16
+
+      -
+      -
+      -
+      -
+
+T diagram 7
+-------------
+5
+8
+
+      -
+      -
+      -
+
+T diagram 8
+-------------
+2
+5
+3
+8
+      -
+      -
+      -
+      -
+
+T diagram 9
+-------------
+sum is 5
+sum is 8
+result is 13
+
+      -
+      -
+      -
+      -
+
+T diagram 10
+-------------
+sum is 5
+sum is 3
+sum is 6
+sum is 3
+sum is 5
+sum is 8
+result is 19
+
+      -
+      -
+      -
+      -
