@@ -1,0 +1,40 @@
+.btn {
+    border-radius: 20px;
+    border: 1px solid #00d1b2;
+    width: 160px;
+    height: 30px !important;
+    background-color: rgb(211, 211, 211);
+    color: #00d1b2;
+}
+
+.plus {
+    border-radius: 50%;
+    /* hethi bich walet doura kemla  */
+    border: 1px solid #00d1b2;
+    /* hethi bich bordure ta3 el btn ywali a5ther */
+
+    margin-top: 20px;
+    /* hethi bich teb3ed 3al btn el fou9ani */
+
+    width: 50px;
+    height: 50px;
+    /* Toul w el 3arth */
+
+    font-size: 2em;
+    /* taille ta3 el ktiba */
+
+    color: white;
+    /* el color ta3 el text eli fi west el btn (+) */
+
+    background-color: #00d1b2;
+    
+}
+
+.shadow-btn {
+    background-color: blue;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    box-shadow: 6px 6px 0px 0px rgb(0, 0, 0);
+    color: white;
+}
