@@ -82,6 +82,7 @@
 }
 .upcard img{
     border-radius: 50px;
+
 }
 
 .lowcard img{
@@ -95,7 +96,7 @@
 
 .upcard {
     background-color: aqua;
-    
+    padding: 10px;
 }
 .upcard img{
     position: relative;
