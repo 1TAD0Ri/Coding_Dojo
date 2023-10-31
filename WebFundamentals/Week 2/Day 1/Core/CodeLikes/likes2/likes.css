@@ -1,29 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+
+}
+body{
+    margin: 0 auto;
+    width: 1000px;
 }
 
-.network{
+
+.network {
     background-color: black;
     color: white;
+    
+
+
+
 }
-.feed{
+
+.feed {
     display: flex;
     justify-content: center;
 }
 
-.down{
+.down {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    
-    
-    
+    justify-content: space-between;
+
+
+
 }
 
-.User{
+.User {
     display: flex;
     flex-direction: column;
     border: 2px solid black;
@@ -32,56 +43,58 @@
     justify-content: center;
     gap: 20px;
 }
-.User img{
+
+.User img {
     width: 100px;
 }
 
-.alldown{
+.alldown {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
-.nm{
+.nm {
     border: solid black;
     display: flex;
     flex-direction: column;
-    
-    
-    
+
+
+
 }
 
-.neilll{
+.neilll {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.nkll{
+.nkll {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
-button{
+
+button {
     background-color: yellow;
 }
 
-.nk{
+.nk {
     border: solid black;
-    
+
 }
 
-.jrll{
+.jrll {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
 
-.jr{
+.jr {
     border: solid black;
-    
+
 }
