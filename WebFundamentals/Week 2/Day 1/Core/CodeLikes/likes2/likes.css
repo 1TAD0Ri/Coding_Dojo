@@ -1,160 +1,87 @@
 *{
-    margin: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-/* ------------------------------------
-navbar+your feed */
 .network{
     background-color: black;
     color: white;
-    width: 780px;
-
 }
-h1{
-    margin-left: 20px;
+.feed{
+    display: flex;
+    justify-content: center;
 }
-
-.yf{
-    margin-left: 700px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
-}
-
 
 .down{
     display: flex;
-}
-
-/* ---------------------------------------
-cadre0 */
-
-.alldown{
-
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    
+    
 }
 
 .User{
-    border: solid black;
-    height: 300px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    border: 2px solid black;
     width: 200px;
-    position: relative;
-    left: 220px;
-    bottom: 160px;
-    margin-right: 100px;
-    
-
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 .User img{
-    border-radius: 50%;
     width: 100px;
 }
 
-/* ---------------------------------
-cadre 1  */
-
-
+.alldown{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
 
 .nm{
     border: solid black;
-    height: 150px;
-    width: 500px;
-    margin-right: 225px;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
     
-
+    
+    
 }
 
 .neilll{
     display: flex;
-    margin-bottom: 80px ;
-    
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-
-
-.neilll button{
-    background-color: yellow;
-    width: 100px;
-}
-.neilll p{
-
-}
-
-
-/* ---------------------------------
-cadre 2  */
-.nk{
-    border: solid black;
-    height: 150px;
-    width: 500px;
-    margin-right: 225px;
-    margin-top: 20px;
-    padding: 20px;
-}
-    
 
 .nkll{
     display: flex;
-    margin-bottom: 80px ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-
-
-.nk button{
+button{
     background-color: yellow;
-    width: 100px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------------------------------------
-cadre3 */
-.jr{
+.nk{
     border: solid black;
-    height: 150px;
-    width: 500px;
-    margin-right: 225px;
-    margin-top: 20px;
-    padding: 20px;
+    
 }
 
 .jrll{
     display: flex;
-    margin-bottom: 80px ;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.jr button{
-    background-color: yellow;
-    width: 100px;
+.jr{
+    border: solid black;
+    
 }
-
-
