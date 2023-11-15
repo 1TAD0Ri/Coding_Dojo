@@ -173,7 +173,7 @@ user2.spend_points(80)
 # Call the display method on all users
 user1.display_info()
 user2.display_info()
-user3.display_info()
+user3.display_info() 
 
 # BONUS: Try to re-enroll the first user
 re_enrollment_success = user1.enroll()
