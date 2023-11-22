@@ -1,0 +1,31 @@
+SELECT * FROM dojos ; 
+INSERT INTO dojos (name) VALUES ('america_dojo'),('tunisia_dojo'),('canada_dojo');
+DELETE FROM dojos  
+WHERE id = 2;
+DELETE FROM dojos  
+WHERE id = 1; 
+DELETE FROM dojos  
+WHERE id = 3;  
+
+INSERT INTO dojos (name) VALUES ('america_dojo'),('canda_dojo'),('brazilia_dojo');
+
+
+
+SELECT * FROM ninjas,dojos
+WHERE dojos.id=ninjas.dojos_id and dojos.id=4;
+
+SELECT * FROM ninjas,dojos
+WHERE dojos.id=ninjas.dojos_id and dojos.id=6;
+
+SELECT * FROM ninjas 
+WHERE dojos_id = 6 ;
+
+SELECT * FROM ninjas 
+JOIN dojos ON dojos_id=dojos.id 
+WHERE ninjas.id=6;
+
+SELECT * FROM ninjas 
+JOIN dojos ON dojos_id=dojos.id;
+
+ 
+
