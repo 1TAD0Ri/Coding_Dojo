@@ -13,19 +13,20 @@ class Rcp:
         self.created_at=data["created_at"]
         self.updated_at=data["updated_at"]
         self.user_id=data["user_id"]
-        self.first_name=data["first_name"]
+        self.poster={}
 
 
     @classmethod
     def get_all(cls):
-        query = "SELECT rcps.*,first_name FROM rcps JOIN users ON users.id=rcps.user_id;"
+        query = "SELECT * FROM rcps JOIN users ON users.id=rcps.user_id;"
         results = connectToMySQL(DATABASE).query_db(query)
         rcps= []
         print(results)
         for rcp in results:
-            rcpi=cls(rcp)
+            # rcpi=cls(rcp)
             # rcp.first_name=rcp['first_name']
             rcps.append(rcp)
+        print("********recipes*********",rcps)
         return rcps
     
 
@@ -52,6 +53,7 @@ class Rcp:
                 SELECT first_name FROM users LEFT JOIN rcps ON rcps.user_id = users.id WHERE user_id=%(user_id)s ;
                 """
         result= connectToMySQL(DATABASE).query_db(query,data)
+        print(cls(result[0]))
         if result:
             return cls(result[0])
         return None
@@ -61,6 +63,7 @@ class Rcp:
         query="SELECT * FROM rcps WHERE id=%(rcp_id)s;"
         result= connectToMySQL(DATABASE).query_db(query,data)
         print(result,"😊")
+        print("****RECIPE****",cls(result[0]))
         #if len(result)<1:
             #return False
         return cls(result[0]) 
