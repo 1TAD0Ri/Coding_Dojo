@@ -42,16 +42,26 @@ const pokémon = Object.freeze([
 // const arr5 = pokémon.filter(pok => pok.id>99).map(p => p.name)
 // console.log(arr5);
 
-// const nameOnlyTypePoison = pokémon.filter(poke=>poke.types.length===1 && poke.types[0]==="poison").map(poke=>poke.name);
+// const nameOnlyTypePoison = pokémon.filter(poke=>poke.types.length===1 && poke.types[0]==="poison").map(p=>p.name);
 
 // console.log(nameOnlyTypePoison)
 
-// const SecondTypisFlying = pokémon.filter(poke=>poke.types[1]==="flying").map(poke=>poke.types[0]);
+
+// const SecondTypisFlying = pokémon.filter(poke=>poke.types[1]==="flying").map(p=>p.types[0]);
 
 // console.log(SecondTypisFlying)
 
 // const normalPokemons = pokémon.filter(poke=>poke.types.includes('normal')).length;
 
 // console.log(normalPokemons)
+
+const divisible = pokémon.filter(p => p.id % 3 === 0);
+const filterType = pokémon.filter ( p => p.types.includes('fire'));
+const moreThan = pokémon.filter (p => p.types.length> 1);
+const justName = pokémon.map (p => p.name);
+const graterThan = pokémon.filter (p => p.id > 99).map (p => p.name);
+const onlyPoison = pokémon.filter (p => p.types.length === 1 && p.types[0] === 'poison').map (p => p.name);
+const onlyfirst = pokémon.filter (p => p.types[1] === 'flying').map (p => p.types[0]);
+const countPokemon = pokémon.filter (p => p.types.includes('normal')).length;
 
 
