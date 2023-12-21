@@ -35,11 +35,11 @@ const pokémon = Object.freeze([
 
 // console.log(arr3);
 
-// const arr4 = pokémon.map(pokemon => `${pokemon.name}`);
+// const arr4 = pokémon.map(pokemon => {return {"name": pokemon.name}});
 // console.log(arr4);
 
 
-// const arr5 = pokémon.filter(pok => pok.id>99).map(pok => pok.name)
+// const arr5 = pokémon.filter(pok => pok.id>99).map(p => p.name)
 // console.log(arr5);
 
 // const nameOnlyTypePoison = pokémon.filter(poke=>poke.types.length===1 && poke.types[0]==="poison").map(poke=>poke.name);

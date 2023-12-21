@@ -20,30 +20,30 @@ function Displayform() {
     }
     }
 
-  return (
-    <div>
-        <form  onSubmit={dataUser}>
-            <label >First name :</label>
-            <input type="text" onChange={ (e) => setFirstname(e.target.value) }   /><br />
-            <label >last name :</label>
-            <input type="text"  onChange={ (e) => setlastName(e.target.value) } /><br />
-            <label >Email:</label>
-            <input type="text" onChange={ (e) => setEmail(e.target.value) }  /><br />
-            <label >Password :</label>
-            <input type="password" onChange={ (e) => setConfirm(e.target.value) }  /><br />
-            <label >Confirm password:</label>
-            <input type="password" /><br />
-            <button>Submit</button>
-
-            
-        </form>
-        <h1>Your Form Data</h1>
-        <p>First name : {firstname}</p>
-        <p>Last name : {lastname}</p>
-        <p>Email : {email}</p>
-        <p>Password{password}</p>
-        <p>Confirm Password : {confirmpassword}</p>
-    </div>
+    return (
+        <div>
+            <form  onSubmit={dataUser}>
+                <label >First name :</label>
+                <input type="text" onChange={ (e) => setFirstname(e.target.value) }   /><br />
+                <label >last name :</label>
+                <input type="text"  onChange={ (e) => setlastName(e.target.value) } /><br />
+                <label >Email:</label>
+                <input type="text" onChange={ (e) => setEmail(e.target.value) }  /><br />
+                <label >Password :</label>
+                <input type="password" onChange={ (e) => setPassword(e.target.value) }  /><br />
+                <label >Confirm password:</label>
+                <input type="password" onChange={ (e) => setConfirm(e.target.value) }  /><br />
+                <button>Submit</button>
+    
+                
+            </form>
+            <h1>Your Form Data</h1>
+            <p>First name : {firstname}</p>
+            <p>Last name : {lastname}</p>
+            <p>Email : {email}</p>
+            <p>Password: {password}</p>
+            <p>Confirm Password : {confirmpassword}</p>
+        </div>
   );
 }
 
