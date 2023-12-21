@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 function Displayform() {
+    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     const [firstname, setFirstname] = useState("")
     const [lastname, setlastName] = useState("")
     const [email, setEmail] = useState("")
@@ -51,6 +52,17 @@ function Displayform() {
     //         setError("")
     //     }
     // }
+    const isEmailValid = ()=> {
+        if (emailRegex.test(email)){
+            return "Correct email "
+        }
+        else if (emailRegex.test(email)===false){
+            return "Wrong email Structure"
+        }
+        else{
+            return" "
+        }
+    }
 
     return (
         <div>
@@ -65,8 +77,14 @@ function Displayform() {
                 <input type="text" onChange={(e) => setlastName(e.target.value)} /><br />
                 <h3>{lastname==""?"":lastname.length<2?"Last Nmae must conatin at least 2 characters  ":""}</h3>
                 <label >Email:</label>
-                <input type="text" onChange={(e) => setEmail(e.target.value)} /><br />
-                <h3>{email==""?"":email.length<2?"Email must conatin must conatin at least 2 characters  ":""}</h3>
+                {/* <input type="text" onChange={(e) => setEmail(e.target.value)} /><br />
+                <h3>{email==""?"":email.length<2?"Email must conatin must conatin at least 2 characters  ":""}</h3> */}
+                    <label >Email:</label>
+                <input type="text"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                />
+                <h3>{isEmailValid()}</h3>
                 <label >Password :</label>
                 <input type="password" onChange={(e) => setPassword(e.target.value)} /><br />
                 <h3>{password==""?"":password.length<9?"password must conatin must conatin at least 8 characters  ":""}</h3>
