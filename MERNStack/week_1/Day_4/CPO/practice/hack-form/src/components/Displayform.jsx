@@ -38,11 +38,11 @@ function Displayform() {
             
         </form>
         <h1>Your Form Data</h1>
-        <p>{firstname}</p>
-        <p>{lastname}</p>
-        <p>{email}</p>
-        <p>{password}</p>
-        <p>{confirmpassword}</p>
+        <p>First name : {firstname}</p>
+        <p>Last name : {lastname}</p>
+        <p>Email : {email}</p>
+        <p>Password{password}</p>
+        <p>Confirm Password : {confirmpassword}</p>
     </div>
   );
 }

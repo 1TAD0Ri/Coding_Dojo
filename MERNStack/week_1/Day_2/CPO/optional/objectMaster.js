@@ -28,7 +28,7 @@ const pokémon = Object.freeze([
 // const arr1 = pokémon.filter(pokemon => pokemon.id%3 ===0);
 // console.log(arr1);
 
-// const arr2 = pokémon.filter(pokemon => pokemon.types[0] === "fire" );
+// const arr2 = pokémon.filter(pokemon => pokemon.types.includes("fire"));
 // console.log(arr2);
 
 // const arr3 = pokémon.filter(pokemon => pokemon.types.length > 1);
