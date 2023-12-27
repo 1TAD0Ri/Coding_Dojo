@@ -1,0 +1,5 @@
+https://swapi.dev/api/people/1 or https://swapi.dev/api/people/,Search=Luke Skywalker
+https://swapi.dev/api/people/2
+https://swapi.dev/api/people/3
+https://swapi.dev/api/people/4
+https://swapi.dev/api/people/5
