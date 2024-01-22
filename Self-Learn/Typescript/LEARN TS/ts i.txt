@@ -1,0 +1,113 @@
+npm install -g ts-node   # Install globally
+# or
+npm install ts-node --save-dev  # Install as a development dependency
+
+npx ts-node filename.ts
+
+--------------------------------------
+react
+npx create-react-app my-app --template typescript
+
+
+
+
+
+------------------
+for html so js can read ts 
+command to create ts and his main  tsc main.ts [] if they have the same name u can ignore writing the []
+command : tsc main.ts -w
+
+--------------------------------------------------
+express
+
+1. Create initial folder and package.json
+mkdir node-express-typescript
+cd node-express-typescript
+npm init --yes
+After initialize a package.json file , The newly created file might look something like the following code:
+{
+  "name": "Your File Name",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js", // Entry Point change it from  js to .ts 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+2. Installing TypeScript & other dependencies
+npm install express mongoose cors mongodb dotenv
+npm install  -D typescript ts-node-dev @types/express @types/cors
+3. Generating tsconfig.json
+npx tsc --init
+The command above will generate a new file called tsconfig.json with the following default compiler options:
+target: es2016
+module: commonjs
+strict: true
+esModuleInterop: true
+skipLibCheck: true
+forceConsistentCasingInFileNames: true
+After opening the tsconfig.json file, you’ll see a lot of other compiler options that are commented out. In tsconfig.json, compilerOptions is a mandatory field that needs to be specified
+
+Set the rootDir and outDir as src and dist folder
+{
+  "compilerOptions": {
+    "outDir": "./dist"
+
+    // other options remain same
+  }
+}
+4. Create an Express server with a .ts extension
+Create a file name index.ts open it
+
+import express, { Express, Request, Response , Application } from 'express';
+import dotenv from 'dotenv';
+
+//For env File 
+dotenv.config();
+
+const app: Application = express();
+const port = process.env.PORT || 8000;
+
+app.get('/', (req: Request, res: Response) => {
+  res.send('Welcome to Express & TypeScript Server');
+});
+
+app.listen(port, () => {
+  console.log(`Server is Fire at http://localhost:${port}`);
+});
+
+5. Watching file changes and build directory
+npm install  nodemon
+
+After installing these dev dependencies, update the scripts in the package.json file:
+{
+
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon index.ts"
+  }
+}
+
+6. Run The Code
+npm run dev 
+
+if everything if perfect you will see the message in console of
+Server is Fire at http://localhost:8000
+
+
+
+
+
+
+
+
+
+
+
+
+
