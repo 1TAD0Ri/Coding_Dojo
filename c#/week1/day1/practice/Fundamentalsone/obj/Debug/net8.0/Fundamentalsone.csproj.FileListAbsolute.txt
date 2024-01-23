@@ -1,0 +1,14 @@
+C:\Users\MSI\Desktop\Fundamentalsone\bin\Debug\net8.0\Fundamentalsone.exe
+C:\Users\MSI\Desktop\Fundamentalsone\bin\Debug\net8.0\Fundamentalsone.deps.json
+C:\Users\MSI\Desktop\Fundamentalsone\bin\Debug\net8.0\Fundamentalsone.runtimeconfig.json
+C:\Users\MSI\Desktop\Fundamentalsone\bin\Debug\net8.0\Fundamentalsone.dll
+C:\Users\MSI\Desktop\Fundamentalsone\bin\Debug\net8.0\Fundamentalsone.pdb
+C:\Users\MSI\Desktop\Fundamentalsone\obj\Debug\net8.0\Fundamentalsone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\Fundamentalsone\obj\Debug\net8.0\Fundamentalsone.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\Fundamentalsone\obj\Debug\net8.0\Fundamentalsone.AssemblyInfo.cs
+C:\Users\MSI\Desktop\Fundamentalsone\obj\Debug\net8.0\Fundamentalsone.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\Fundamentalsone\obj\Debug\net8.0\Fundamentalsone.dll
+C:\Users\MSI\Desktop\Fundamentalsone\obj\Debug\net8.0\refint\Fundamentalsone.dll
+C:\Users\MSI\Desktop\Fundamentalsone\obj\Debug\net8.0\Fundamentalsone.pdb
+C:\Users\MSI\Desktop\Fundamentalsone\obj\Debug\net8.0\Fundamentalsone.genruntimeconfig.cache
+C:\Users\MSI\Desktop\Fundamentalsone\obj\Debug\net8.0\ref\Fundamentalsone.dll
