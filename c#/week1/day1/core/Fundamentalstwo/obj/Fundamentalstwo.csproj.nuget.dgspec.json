@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day1\\practice\\Fundamentalsone\\Fundamentalsone.csproj": {}
+    "C:\\Users\\MSI\\Desktop\\Fundamentalstwo\\Fundamentalstwo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day1\\practice\\Fundamentalsone\\Fundamentalsone.csproj": {
+    "C:\\Users\\MSI\\Desktop\\Fundamentalstwo\\Fundamentalstwo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day1\\practice\\Fundamentalsone\\Fundamentalsone.csproj",
-        "projectName": "Fundamentalsone",
-        "projectPath": "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day1\\practice\\Fundamentalsone\\Fundamentalsone.csproj",
+        "projectUniqueName": "C:\\Users\\MSI\\Desktop\\Fundamentalstwo\\Fundamentalstwo.csproj",
+        "projectName": "Fundamentalstwo",
+        "projectPath": "C:\\Users\\MSI\\Desktop\\Fundamentalstwo\\Fundamentalstwo.csproj",
         "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day1\\practice\\Fundamentalsone\\obj\\",
+        "outputPath": "C:\\Users\\MSI\\Desktop\\Fundamentalstwo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
