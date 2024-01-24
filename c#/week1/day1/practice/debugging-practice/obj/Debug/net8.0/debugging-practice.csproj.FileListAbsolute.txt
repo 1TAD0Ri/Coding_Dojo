@@ -1,0 +1,15 @@
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\debugging-practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\debugging-practice.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\debugging-practice.AssemblyInfo.cs
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\debugging-practice.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\debugging-practice.sourcelink.json
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\bin\Debug\net8.0\debugging-practice.exe
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\bin\Debug\net8.0\debugging-practice.deps.json
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\bin\Debug\net8.0\debugging-practice.runtimeconfig.json
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\bin\Debug\net8.0\debugging-practice.dll
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\bin\Debug\net8.0\debugging-practice.pdb
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\debugging-practice.dll
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\refint\debugging-practice.dll
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\debugging-practice.pdb
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\debugging-practice.genruntimeconfig.cache
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\practice\debugging-practice\obj\Debug\net8.0\ref\debugging-practice.dll
