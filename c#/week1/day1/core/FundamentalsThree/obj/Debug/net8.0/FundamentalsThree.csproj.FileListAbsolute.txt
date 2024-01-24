@@ -1,0 +1,15 @@
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\bin\Debug\net8.0\FundamentalsThree.exe
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\bin\Debug\net8.0\FundamentalsThree.deps.json
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\bin\Debug\net8.0\FundamentalsThree.runtimeconfig.json
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\bin\Debug\net8.0\FundamentalsThree.dll
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\bin\Debug\net8.0\FundamentalsThree.pdb
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\FundamentalsThree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\FundamentalsThree.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\FundamentalsThree.AssemblyInfo.cs
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\FundamentalsThree.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\FundamentalsThree.sourcelink.json
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\FundamentalsThree.dll
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\refint\FundamentalsThree.dll
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\FundamentalsThree.pdb
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\FundamentalsThree.genruntimeconfig.cache
+C:\Users\MSI\Desktop\Coding_Dojo\c#\week1\day1\core\FundamentalsThree\obj\Debug\net8.0\ref\FundamentalsThree.dll

@@ -37,7 +37,8 @@ string MyString = "superduberawesome";
 // Fix: Strings in C# are immutable, so you can't change individual characters directly.
 // You can create a new string with the desired modification.
 MyString = MyString.Substring(0, 7) + "p" + MyString.Substring(8);
-
+System.Console.WriteLine(MyString[7]);
+//But if we console this qithout adding substring it will be 'b'
 // Challenge 6
 Random rand = new Random();
 int randomNum = rand.Next(13); // Fix: Adjust the upper bound to include 12
@@ -45,3 +46,5 @@ if(randomNum == 12)
 {
     Console.WriteLine("Hello");
 }
+
+
