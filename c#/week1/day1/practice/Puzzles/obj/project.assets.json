@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day1\\core\\Fundamentalstwo\\Fundamentalstwo.csproj",
-      "projectName": "Fundamentalstwo",
-      "projectPath": "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day1\\core\\Fundamentalstwo\\Fundamentalstwo.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\Desktop\\testC\\testC.csproj",
+      "projectName": "testC",
+      "projectPath": "C:\\Users\\MSI\\Desktop\\testC\\testC.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day1\\core\\Fundamentalstwo\\obj\\",
+      "outputPath": "C:\\Users\\MSI\\Desktop\\testC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
