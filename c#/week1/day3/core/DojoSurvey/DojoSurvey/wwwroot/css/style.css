@@ -1,0 +1,35 @@
+.containerForm{
+    padding: 20px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.textarea{
+    gap: 5px;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.flang{
+    margin-top: 20px ;
+}
+.Dojoloc{
+    margin-top: 20px ;
+}
+
+.btnform{
+
+    margin-top: 20px ;
+    display: flex;
+    justify-content: flex-end;
+}
