@@ -1,0 +1,14 @@
+C:\Users\MSI\Desktop\DrinkMaker\bin\Debug\net8.0\DrinkMaker.exe
+C:\Users\MSI\Desktop\DrinkMaker\bin\Debug\net8.0\DrinkMaker.deps.json
+C:\Users\MSI\Desktop\DrinkMaker\bin\Debug\net8.0\DrinkMaker.runtimeconfig.json
+C:\Users\MSI\Desktop\DrinkMaker\bin\Debug\net8.0\DrinkMaker.dll
+C:\Users\MSI\Desktop\DrinkMaker\bin\Debug\net8.0\DrinkMaker.pdb
+C:\Users\MSI\Desktop\DrinkMaker\obj\Debug\net8.0\DrinkMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\DrinkMaker\obj\Debug\net8.0\DrinkMaker.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\DrinkMaker\obj\Debug\net8.0\DrinkMaker.AssemblyInfo.cs
+C:\Users\MSI\Desktop\DrinkMaker\obj\Debug\net8.0\DrinkMaker.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\DrinkMaker\obj\Debug\net8.0\DrinkMaker.dll
+C:\Users\MSI\Desktop\DrinkMaker\obj\Debug\net8.0\refint\DrinkMaker.dll
+C:\Users\MSI\Desktop\DrinkMaker\obj\Debug\net8.0\DrinkMaker.pdb
+C:\Users\MSI\Desktop\DrinkMaker\obj\Debug\net8.0\DrinkMaker.genruntimeconfig.cache
+C:\Users\MSI\Desktop\DrinkMaker\obj\Debug\net8.0\ref\DrinkMaker.dll

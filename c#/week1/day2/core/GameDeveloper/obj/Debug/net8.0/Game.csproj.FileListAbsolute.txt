@@ -1,0 +1,14 @@
+C:\Users\bouaz\OneDrive\Desktop\Game\bin\Debug\net8.0\Game.exe
+C:\Users\bouaz\OneDrive\Desktop\Game\bin\Debug\net8.0\Game.deps.json
+C:\Users\bouaz\OneDrive\Desktop\Game\bin\Debug\net8.0\Game.runtimeconfig.json
+C:\Users\bouaz\OneDrive\Desktop\Game\bin\Debug\net8.0\Game.dll
+C:\Users\bouaz\OneDrive\Desktop\Game\bin\Debug\net8.0\Game.pdb
+C:\Users\bouaz\OneDrive\Desktop\Game\obj\Debug\net8.0\Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bouaz\OneDrive\Desktop\Game\obj\Debug\net8.0\Game.AssemblyInfoInputs.cache
+C:\Users\bouaz\OneDrive\Desktop\Game\obj\Debug\net8.0\Game.AssemblyInfo.cs
+C:\Users\bouaz\OneDrive\Desktop\Game\obj\Debug\net8.0\Game.csproj.CoreCompileInputs.cache
+C:\Users\bouaz\OneDrive\Desktop\Game\obj\Debug\net8.0\Game.dll
+C:\Users\bouaz\OneDrive\Desktop\Game\obj\Debug\net8.0\refint\Game.dll
+C:\Users\bouaz\OneDrive\Desktop\Game\obj\Debug\net8.0\Game.pdb
+C:\Users\bouaz\OneDrive\Desktop\Game\obj\Debug\net8.0\Game.genruntimeconfig.cache
+C:\Users\bouaz\OneDrive\Desktop\Game\obj\Debug\net8.0\ref\Game.dll

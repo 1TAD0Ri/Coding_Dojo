@@ -1,0 +1,10 @@
+﻿MeleeFighter Aziz = new("Aziz");
+MagicCaster Ala = new("Ala");
+RangedFighter Elaa = new("Elaa");
+Attack randomAttack =Aziz.RandomAttack();
+Aziz.PerformAttack(Elaa,randomAttack);
+Aziz.Rage();
+Aziz.PerformAttack(Ala,randomAttack);
+Elaa.PerformAttack(Ala,randomAttack);
+Aziz.PerformAttack(Ala,randomAttack);
+Elaa.PerformAttack(Ala,randomAttack);

@@ -1,0 +1,14 @@
+C:\Users\MSI\Desktop\fuelMaker\bin\Debug\net8.0\fuelMaker.exe
+C:\Users\MSI\Desktop\fuelMaker\bin\Debug\net8.0\fuelMaker.deps.json
+C:\Users\MSI\Desktop\fuelMaker\bin\Debug\net8.0\fuelMaker.runtimeconfig.json
+C:\Users\MSI\Desktop\fuelMaker\bin\Debug\net8.0\fuelMaker.dll
+C:\Users\MSI\Desktop\fuelMaker\bin\Debug\net8.0\fuelMaker.pdb
+C:\Users\MSI\Desktop\fuelMaker\obj\Debug\net8.0\fuelMaker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\fuelMaker\obj\Debug\net8.0\fuelMaker.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\fuelMaker\obj\Debug\net8.0\fuelMaker.AssemblyInfo.cs
+C:\Users\MSI\Desktop\fuelMaker\obj\Debug\net8.0\fuelMaker.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\fuelMaker\obj\Debug\net8.0\fuelMaker.dll
+C:\Users\MSI\Desktop\fuelMaker\obj\Debug\net8.0\refint\fuelMaker.dll
+C:\Users\MSI\Desktop\fuelMaker\obj\Debug\net8.0\fuelMaker.pdb
+C:\Users\MSI\Desktop\fuelMaker\obj\Debug\net8.0\fuelMaker.genruntimeconfig.cache
+C:\Users\MSI\Desktop\fuelMaker\obj\Debug\net8.0\ref\fuelMaker.dll
