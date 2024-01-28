@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\css\\AboutMe.css",
+      "PackagePath": "staticwebassets\\css\\AboutMe.css"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\img\\kagurabachi.jpg",
+      "PackagePath": "staticwebassets\\img\\kagurabachi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\img\\makii.PNG",
+      "PackagePath": "staticwebassets\\img\\makii.PNG"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Portfolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Portfolio.props",
+      "PackagePath": "build\\Portfolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Portfolio.props",
+      "PackagePath": "buildMultiTargeting\\Portfolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Portfolio.props",
+      "PackagePath": "buildTransitive\\Portfolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

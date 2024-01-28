@@ -33,7 +33,7 @@ static string CoinFlip()
 
 
 int dicerolll = DiceRoll();
-Console.WriteLine( dicerolll);
+Console.WriteLine(dicerolll);
 
 
 static int DiceRoll()
@@ -44,53 +44,53 @@ static int DiceRoll()
 
 
     // Map the random number to "heads" or "tails"
- 
-        
-        return result+1;
+
+
+    return result + 1;
 
 }
 
 // ------------------------------
 
-    static void StatRoll()
+static void StatRoll()
+{
+    for (int i = 0; i < 4; i++)
     {
-        for (int i = 0; i < 4; i++)
-        {
-            Console.WriteLine(RollDice());
-        }
+        Console.WriteLine(RollDice());
     }
+}
 
-    static int RollDice()
-    {
-        Random random = new Random();
-        return random.Next(1, 7);
-    }
+static int RollDice()
+{
+    Random random = new Random();
+    return random.Next(1, 7);
+}
 
-    StatRoll();
+StatRoll();
 
 
 // ------------------------------
 
 static void RollUnit()
 {
-       int targetNumber = 3; 
-        string rollResult = RollUntil(targetNumber);
-        Console.WriteLine(rollResult);
+    int targetNumber = 3;
+    string rollResult = RollUntil(targetNumber);
+    Console.WriteLine(rollResult);
 }
- static string RollUntil(int targetNumber)
+static string RollUntil(int targetNumber)
+{
+    Random random = new Random();
+    int count = 0;
+    int result;
+
+    do
     {
-        Random random = new Random();
-        int count = 0;
-        int result;
+        result = random.Next(1, 7);
+        count++;
+    } while (result != targetNumber);
 
-        do
-        {
-            result = random.Next(1, 7);
-            count++;
-        } while (result != targetNumber);
-
-        return $"Rolled a {targetNumber} after {count} tries";
-    }
+    return $"Rolled a {targetNumber} after {count} tries";
+}
 
 RollUnit();
 

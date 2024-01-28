@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "Uq4p78CzptAH++8kaJoPo+DdKtvjr3VxjMYMwxLJwuE=",
+  "Source": "Portfolio",
+  "BasePath": "_content/Portfolio",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Portfolio\\wwwroot",
+      "Source": "Portfolio",
+      "ContentRoot": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\css\\AboutMe.css",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "css/AboutMe.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\AboutMe.css"
+    },
+    {
+      "Identity": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\img\\kagurabachi.jpg",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "img/kagurabachi.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\kagurabachi.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\img\\makii.PNG",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MSI\\Desktop\\Portfolio1\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "img/makii.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\makii.PNG"
+    }
+  ]
+}
