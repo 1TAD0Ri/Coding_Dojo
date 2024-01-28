@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+</head>
+<body>
+    @{
+        DateTime startTime = new DateTime(2024, 1, 28, 15, 8, 0);
+        DateTime endTime = new DateTime(2024, 1, 28, 15, 20, 0);
+        TimeSpan remainingTime = endTime - DateTime.Now;
+    }
+
+    <div>
+        <h1>Countdown</h1>
+    </div>
+    <div>
+        <p>Start Time: @startTime.ToString("dd MMM, yyyy hh:mm tt")</p>
+        <p>End Time: @endTime.ToString("dd MMM, yyyy hh:mm tt")</p>
+        <p id="countdown"></p>
+    </div>
+
+    <script>
+        // Function to update the countdown dynamically
+        function updateCountdown() {
+            var now = new Date();
+            var remainingTime = new Date("@endTime") - now;
+
+            var days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+
+            document.getElementById("countdown").innerHTML = "Time Remaining: " + days + " day(s), " + hours + " hour(s), " + minutes + " minute(s) Remaining";
+
+            // Update the countdown every second
+            setTimeout(updateCountdown, 1000);
+        }
+
+        // Initial call to start the countdown
+        updateCountdown();
+    </script>
+</body>
+</html>
