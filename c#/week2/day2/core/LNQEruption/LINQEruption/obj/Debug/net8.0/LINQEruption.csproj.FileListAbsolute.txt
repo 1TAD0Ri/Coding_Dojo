@@ -1,0 +1,14 @@
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\bin\Debug\net8.0\LINQEruption.exe
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\bin\Debug\net8.0\LINQEruption.deps.json
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\bin\Debug\net8.0\LINQEruption.runtimeconfig.json
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\bin\Debug\net8.0\LINQEruption.dll
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\bin\Debug\net8.0\LINQEruption.pdb
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\obj\Debug\net8.0\LINQEruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\obj\Debug\net8.0\LINQEruption.AssemblyInfoInputs.cache
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\obj\Debug\net8.0\LINQEruption.AssemblyInfo.cs
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\obj\Debug\net8.0\LINQEruption.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\obj\Debug\net8.0\LINQEruption.dll
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\obj\Debug\net8.0\refint\LINQEruption.dll
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\obj\Debug\net8.0\LINQEruption.pdb
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\obj\Debug\net8.0\LINQEruption.genruntimeconfig.cache
+C:\Users\MSI\Desktop\LNQEruption\LINQEruption\obj\Debug\net8.0\ref\LINQEruption.dll

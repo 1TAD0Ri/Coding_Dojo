@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSI\\Desktop\\DojoSurveyWithmodel1\\DojoSurveyModel\\DojoSurveyModel.csproj",
+      "projectUniqueName": "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day4\\core\\DojoSurveyWithmodel1\\DojoSurveyModel\\DojoSurveyModel.csproj",
       "projectName": "DojoSurveyModel",
-      "projectPath": "C:\\Users\\MSI\\Desktop\\DojoSurveyWithmodel1\\DojoSurveyModel\\DojoSurveyModel.csproj",
+      "projectPath": "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day4\\core\\DojoSurveyWithmodel1\\DojoSurveyModel\\DojoSurveyModel.csproj",
       "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSI\\Desktop\\DojoSurveyWithmodel1\\DojoSurveyModel\\obj\\",
+      "outputPath": "C:\\Users\\MSI\\Desktop\\Coding_Dojo\\c#\\week1\\day4\\core\\DojoSurveyWithmodel1\\DojoSurveyModel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config"
