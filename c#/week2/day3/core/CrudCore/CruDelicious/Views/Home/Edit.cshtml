@@ -1,0 +1,37 @@
+@model Dishe
+<div class="text-center">
+    <div class="card shadow border-info p-3">
+        <div class="card-head h2 text-center"> Dishe Form</div>
+        <div class="card-body">
+            <form asp-action="UpdateDishe" asp-controller="Home" method="post">
+                <input type="hidden" asp-for="DisheId">
+                <div class="form-group mb-3">
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" class="form-control">
+                    <span class="text-danger" asp-validation-for="Name"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Chef"></label>
+                    <input asp-for="Chef" class="form-control">
+                    <span class="text-danger" asp-validation-for="Chef"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Calories"></label>
+                    <input asp-for="Calories" class="form-control">
+                    <span class="text-danger" asp-validation-for="Calories"></span>
+                </div>
+                <div class="form-group mb-3">
+                    <label asp-for="Description"></label>
+                    <input asp-for="Description" class="form-control">
+                    <span class="text-danger" asp-validation-for="Description"></span>
+                </div>
+            <div class="form-group mb-3">
+                    <label asp-for="Tastiness"></label>
+                    <input asp-for="Tastiness" class="form-control">
+                    <span class="text-danger" asp-validation-for="Tastiness"></span>
+                </div>
+                <button class="btn btn-info w-100"> Edit Your Dishe</button>
+            </form>
+        </div>
+    </div>
+</div>

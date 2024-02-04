@@ -1,0 +1,24 @@
+﻿@model List<Dishe>
+
+<div class="container p-3 mt-5">
+    <div class="d-flex align-items-center justify-content-around flex-wrap gap-3">
+        <h1>Check out some recent dishes</h1>
+        <div>
+            <h1>Create A dish if u want </h1>
+            <a asp-action="Create">        <button class="btn btn-primary">Create a Dishe </button></a>
+
+        </div>
+        <div>
+            @{
+                foreach (Dishe dishe in Model)
+                {
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a asp-action="ShowOne" asp-route-disheId="@dishe.DisheId">@dishe.Name</a> by @dishe.Chef
+                        </li>
+                    </ul>
+                }
+            }
+        </div>
+    </div>
+</div>
