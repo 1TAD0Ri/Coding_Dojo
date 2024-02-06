@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navbarHome {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .Addchef {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .formchef {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+</style>
+
+<body>
+    @model Chef
+
+    <nav class="navbarHome">
+        <button><a href="@Url.Action("Chefs", "Home")">Chefs</a>|</button>
+        <button><a href="@Url.Action("Dishes", "Home")">Dishes</a>|</button>
+        <button><a href="@Url.Action("AddChef", "Home")">Add a chef</a>|</button>
+        <button><a href="@Url.Action("AddDishe", "Home")">Add a Dish</a>|</button>
+    </nav>
+
+
+    <div class="Addchef">
+        <h1>Add a Chef ! </h1>
+    </div>
+
+    <div>
+        <form class="formchef" asp-action="CreateChef" asp-controller="Home" method="post">
+            <div>
+
+                <label asp-for="FirstName"></label>
+                <input type="text" asp-for="FirstName">
+                <span asp-validation-for="FirstName"></span>
+            </div>
+            <div>
+
+                <label asp-for="LastName"></label>
+                <input type="text" asp-for="LastName">
+                <span asp-validation-for="LastName"></span>
+            </div>
+            <div>
+
+                <label asp-for="DtaeOfBirth"></label>
+                <input type="Date" asp-for="DtaeOfBirth">
+                <span asp-validation-for="DtaeOfBirth"></span>
+            </div>
+            <button>Add a Chef</button>
+        </form>
+    </div>
+</body>
+
+</html>

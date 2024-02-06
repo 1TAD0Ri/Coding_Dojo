@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .navbarHome {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .CheckDishes {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+</style>
+
+<body>
+    @model List<Dish>
+    <nav class="navbarHome">
+        <button><a href="@Url.Action("Chefs", "Home")">Chefs</a>|</button>
+        <button><a href="@Url.Action("Dishes", "Home")">Dishes</a>|</button>
+        <button><a href="@Url.Action("AddChef", "Home")">Add a chef</a>|</button>
+        <button><a href="@Url.Action("AddDishe", "Home")">Add a Dish</a>|</button>
+    </nav>
+
+
+    <div class="CheckDishes">
+        <h1>Check Out Our Tasty Dishes ! </h1>
+    </div>
+
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Chef</th>
+                    <th scope="col">Tastiness</th>
+                    <th scope="col">Calories</th>
+
+
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                @{
+                    foreach (Dish dish in Model)
+                    {
+
+                        <tr>
+                            <td>@dish.Name</td>
+                            <td>@dish.Chef.FirstName @dish.Chef.LastName</td>
+                            <td>@dish.Tastiness</td>
+                            <td>@dish.Calories</td>
+
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

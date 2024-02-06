@@ -1,0 +1,64 @@
+<style>
+    .navbarHome {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .Adddish {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .formchef {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+</style>
+    @model Dish
+    <nav class="navbarHome">
+        <button><a href="@Url.Action("Chefs", "Home")">Chefs</a>|</button>
+        <button><a href="@Url.Action("Dishes", "Home")">Dishes</a>|</button>
+        <button><a href="@Url.Action("AddChef", "Home")">Add a chef</a>|</button>
+        <button><a href="@Url.Action("AddDishe", "Home")">Add a Dish</a>|</button>
+    </nav>
+
+
+    <div class="Adddish">
+        <h1>Add a Dish ! </h1>
+    </div>
+
+    <div>
+        <form class="formchef" asp-action="CreateDish" asp-controller="Home" method="post">
+            <label asp-for="Name"></label>
+            <input type="text" asp-for="Name">
+            <span asp-validation-for="Name"></span>
+            
+            <label ></label>
+            <select asp-for="ChefId">
+                @foreach(Chef ch in ViewBag.chefs){
+                <option value="@ch.ChefId">@ch.FirstName</option>  
+                 }
+            </select>
+          
+            
+             
+            <label asp-for="Tastiness"></label>
+            <select name="Tastiness" asp-for="Tastiness">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <span asp-validation-for="Tastiness"></span>
+
+            <label asp-for="Calories"></label>
+            <input type="number" asp-for="Calories">
+            <span asp-validation-for="Calories"></span>
+            <button>Add Dish</button>
+        </form>
+    </div>
+
