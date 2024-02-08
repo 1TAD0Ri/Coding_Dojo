@@ -1,0 +1,28 @@
+@model List<Guest>
+
+<h2>Guests</h2>
+
+@foreach (var guest in Model)
+{
+    <p>@guest.User.Username</p>
+}
+
+@if (Model.Count == 0)
+{
+    <p>No guests for this wedding.</p>
+}
+
+@{
+    var wedding = Model.FirstOrDefault()?.Wedding;
+}
+
+@if (wedding != null)
+{
+    <h2>Wedding Details</h2>
+    <p>Wedder One: @wedding.WedderOne</p>
+    <p>Wedder Two: @wedding.WedderTwo</p>
+    <p>Date: @wedding.Date.ToShortDateString()</p>
+    <p>Address: @wedding.Address</p>
+}
+
+<a asp-controller="Home" asp-action="Privacy">Back to Weddings</a>

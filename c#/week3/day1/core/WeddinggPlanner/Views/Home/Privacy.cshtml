@@ -1,0 +1,62 @@
+﻿@{
+    int UserId = (int)Context.Session.GetInt32("userId");
+}
+
+@model List<Wedding>
+
+<div class="text-center">
+    <table class="table table-striped table-dark">
+        <thead>
+            <tr>
+                <th>Wedding Of</th>
+                <th>Date</th>
+                <th>Guess Count</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (Wedding wedding in Model)
+                {
+                    <tr>
+
+                        <td>
+                            <a asp-controller="Home" asp-action="Guests" asp-route-weddingId="@wedding.WeddingId">
+                                @wedding.WedderOne & @wedding.WedderTwo
+                            </a>
+                        </td>
+                        <td>@wedding.Date.ToString("MMMM dd")</td>
+                        <td>@wedding.MyGuests.Count()</td>
+                        <td>
+                            @{
+                                if (UserId == wedding.UserId)
+                                {
+                                    <form asp-action="DeleteWedding" asp-controller="Home" method="post">
+                                        <button class="btn btn-danger">Delete</button>
+                                    </form>
+                                }
+                                else
+                                {
+                                    if (wedding.MyGuests.Any(g => g.UserId == UserId))
+                                    {
+                                        <form asp-action="UnRSVP" asp-controller="Home" method="post" asp-route-weddingId="@wedding.WeddingId">
+                                            <button class="btn btn-danger">UN-RSVP</button>
+                                        </form>
+                                    }
+                                    else
+                                    {
+                                        <form asp-action="RSVP" asp-controller="Home" method="post" asp-route-weddingId="@wedding.WeddingId">
+                                            <button class="btn btn-danger">RSVP</button>
+                                        </form>
+                                    }
+                                }
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+
+    </table>
+
+</div>
